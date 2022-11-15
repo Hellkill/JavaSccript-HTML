@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autohandel Bumm</title>
+    <style>
+        div {
+          margin-top: 10px;
+   
+        }
+        form {
+   
+           width: 300px;
+        }
+        input {
+           width: 100%;
+        }
+   
+       </style>
+</head>
+<body>
+<form action="results.html"  method="GET">
+<div>
+<label >Auto Verkauf Bumm bitte wählen sie ihr Modell </label>
+
+</div>
+<div>
+<label for="color">Modell Farbe</label>
+<select name="color" id="color">
+<option value="Rot"style="background-color: red;">Rot</option>
+<option value="Blau"style="background-color: blue">Blau</option>
+<option value="Gelb"style="background-color: yellow;">Gelb</option>
+</select>
+</div>
+<div>
+<label for="modell">Automodell</label>
+<select name="modell" id="modell">
+<option value="Sportwagen"><img src="sportwagen.jpg">Sportwagen</option>
+<option value="SUV"><img src="SUV.jpg"/>SUV</option>
+<option value="Cabrio"><img src="BMW.jpg"/>Cabrio</option>
+</select>
+</div>
+<div>
+<label for="data"> Bitte ihre Daten angeben</label>
+</div>
+<div>
+<label for="name">Name</label>
+<input name="name" id="name" value="Vor/nachname">
+
+</div>
+<div>
+<label for="email">E-Mail Adresse </label>
+<input type="email" name="email" id="email"> 
+</div>
+<div>
+<button type="Absenden" style="background-color: grey;">Absenden</button>
+</div>
+
+
+
+</form>
+    
+</body>
+</html>
